@@ -11,3 +11,5 @@ USAGE
 python st_tool.py [-h] [-s] [--add ADD] [--scan SCAN] [--id ID] [--search SEARCH]
                  [--bug BUG] [--firmware FIRMWARE] [--type TYPE]
                  [--detect] [--tty] [--uart UART] [--fz FZ]
+
+[![asciicast](https://asciinema.org/a/644172.svg)](https://asciinema.org/a/644172)

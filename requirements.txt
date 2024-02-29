@@ -1,5 +1,4 @@
 requests
 pymongo
-threading
 platform
 pyxploitdb

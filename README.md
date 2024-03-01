@@ -14,15 +14,20 @@ python st_tool.py [-h] [-s] [--add ADD] [--scan SCAN] [--id ID] [--search SEARCH
 
 
 [Add new Device]
+
 python3 smartthings.py -a 192.168.1.1
+
 python3 smarthings.py -s --type TPLINK
+
 python3 smartthings.py -s --firmware  TP-Link Archer C7v2
 
 Search for CVE and Poc [ firmware and device type]
 [![asciicast](https://asciinema.org/a/644172.svg)](https://asciinema.org/a/644172)
 
 Scan device for open upnp ports 
+
 python3 smartthings.py -s --scan upnp --id <device_id> 
 
 get data from mqtt 'subscribe'
+
 python3 smartthings.py -s --scan mqtt --id <device_id> 
